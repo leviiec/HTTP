@@ -1,7 +1,6 @@
 HTTP Request hiểu một cách đơn giản là các thông tin sẽ được gửi từ khách hàng (client) lên server. Server sẽ có nhiệm vụ tìm và xử lý các loại dữ liệu, thông tin, client mong muốn. HTTP Request có thể tồn tại dưới file text hoặc dưới dạng XML hoặc dạng Json. Để hiểu rõ hơn, bạn có thể tham khảo các thông tin về cấu trúc HTTP Request và một số phương phức phổ biến.  
 
 Cấu trúc của HTTP Request bao gồm:  
-
     <img width="525" alt="image" src="https://user-images.githubusercontent.com/125866921/220236350-dc2d2fdb-cfdb-4bd8-aced-bb47cd476352.png">  
     
 Request line là dòng đầu tiên của HTTP Request, với ba loại chính là method, path ( hay URL) và HTTP version. Cụ thể:  
