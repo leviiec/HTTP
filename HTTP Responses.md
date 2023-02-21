@@ -3,7 +3,6 @@ Nguyên lý:
     Khi bạn nhập vào địa chỉ *******.com, kết quả trả về (response) chính là giao diện của website và các thông tin của header. Như vậy dữ liệu mà server trả về là những đoạn mã HTML kèm theo các thông tin của header. Browser sẽ dựa vào các thông tin này để hiển thị trạng thái kết quả của request. Mã HTML dùng để hiển thị giao diện của website. Nếu bạn nhập vào một URL không tồn tại thì thông tin của header cũng sẽ không có gì.  
     
 Cấu trúc của HTTP Respones:  
-
     <img width="575" alt="image" src="https://user-images.githubusercontent.com/125866921/220240219-47766dfa-047e-4e27-a0c0-208ed60b020e.png">  
     
 Cấu trúc HTTP Response gần giống với HTTP request. Điểm khác biẹt là thay vì Request-Line, HTTP có response có Status-Line. Tương tự như Request-Line, Status-Line cũng có ba phần được phần cách với nhau bằng khoảng trống như sau:  
