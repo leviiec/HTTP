@@ -6,7 +6,7 @@ Cấu trúc của HTTP Request bao gồm:
     
 Request line là dòng đầu tiên của HTTP Request, với ba loại chính là method, path ( hay URL) và HTTP version. Cụ thể:  
 
-    Method: gồm nhiều loại nhưng phổ biến nhất là GET và POST. Trong đó, phương thức GET có tác dụng dùng để yêu cầu các tài nguyên cung cấp trong URL.  
+    Method: gồm nhiều loại (HEAD, PUT, DELETE, OPTIONS, CONNECT) nhưng phổ biến nhất là GET và POST. Trong đó, phương thức GET có tác dụng dùng để yêu cầu các tài nguyên cung cấp trong URL.  
     
     Path (URL): có tác dụng định danh các nguồn tài nguyên được yêu cầu bởi khách hàng, người dùng và bắt buộc phải có dấu “/".  
     
