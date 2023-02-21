@@ -12,7 +12,6 @@ Request line là dòng đầu tiên của HTTP Request, với ba loại chính l
     HTTP version: Đây là phiên bản HTTP được sử dụng, trong đó phổ biến nhất là HTTP/1.0 hay HTTP/1.1.  
     
 Yếu tố thứ hai góp phần làm hình thành HTTP Request đó là các header. Thông tin được bổ sung sẽ truyền tải giữa cả máy chủ và máy khách, chẳng hạn như cookie, thông tin về ủy quyền, tác nhân người dùng… Tương tự một HTTP Request, header sẽ phân biệt chữ thường và chữ hoa, theo sau đó là dấu “.” và một giá trị.  
-
     ![image](https://user-images.githubusercontent.com/125866921/220236891-d3c1994e-9cee-4902-bc32-a2d28cb9d8de.png)  
     
 Yếu tố thứ ba được đề cập đến đó là massage body. Máy chủ dùng nội dung thư để cung cấp những thông thông tin cần thiết nhất đến với máy khách. Massage body có chứa các dòng yêu cầu, thông tin, dòng trống, tiêu đề, và nội dung. Trong đó, yếu tố nội dung sẽ tùy chọn. Không phải tất cả các yêu cầu đều có nội dung nhưng sẽ dùng POST để phân phối tải trọng.  
