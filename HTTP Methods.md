@@ -4,7 +4,7 @@ Khi bạn đang tấn công các ứng dụng web, bạn hầu như chỉ xử l
     
     Phương thức POST được thiết kế để thực hiện các hành động. Với phương pháp này, các tham số yêu cầu có thể được gửi cả trong chuỗi truy vấn URL và trong phần nội dung của thư. Mặc dù URL vẫn có thể được đánh dấu trang nhưng bất kỳ tham số nào được gửi trong nội dung thư sẽ bị loại trừ khỏi dấu trang. Các tham số này cũng sẽ bị loại trừ khỏi các vị trí khác nhau trong đó nhật ký URL được duy trì và khỏi tiêu đề Người giới thiệu. Vì phương thức POST được thiết kế để thực hiện các hành động, nếu người dùng nhấp vào nút Quay lại của trình duyệt để quay lại trang được truy cập bằng phương thức này, thì trình duyệt sẽ không tự động đưa ra lại yêu cầu. Thay vào đó, nó cảnh báo người dùng về những gì nó sắp làm, như thể hiện trong hình. Điều này ngăn người dùng vô tình thực hiện một hành động nhiều lần. Vì lý do này, các yêu cầu POST phải luôn được sử dụng khi một hành động đang được thực hiện.  
     
-    <img width="410" alt="image" src="https://user-images.githubusercontent.com/125866921/220383818-8d979448-6de7-4e28-8f99-86bd0c9c4357.png">
+<img width="410" alt="image" src="https://user-images.githubusercontent.com/125866921/220383818-8d979448-6de7-4e28-8f99-86bd0c9c4357.png">
 
     Phương thức HEAD hoạt động theo cách tương tự như yêu cầu GET, ngoại trừ việc máy chủ không được trả về nội dung thư trong phản hồi của nó. Máy chủ sẽ trả về các tiêu đề giống như nó sẽ trả về yêu cầu GET tương ứng. Do đó, phương pháp này có thể được sử dụng để kiểm tra xem tài nguyên có tồn tại hay không trước khi thực hiện yêu cầu GET cho nó.  
     
