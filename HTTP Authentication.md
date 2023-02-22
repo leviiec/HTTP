@@ -58,9 +58,9 @@ Server-Side Functionality:
     
 The Java Platform:  
 
-    Trong nhiều năm, Nền tảng Java, Phiên bản Doanh nghiệp (trước đây gọi là J2EE) là một tiêu chuẩn thực tế cho các ứng dụng doanh nghiệp quy mô lớn. Ban đầu được phát triển bởi Sun Microsystems và hiện thuộc sở hữu của Oracle, nó phù hợp với các kiến trúc đa tầng và cân bằng tải, đồng thời rất phù hợp để phát triển mô-đun và tái sử dụng mã. Do có lịch sử lâu đời và được áp dụng rộng rãi nên có nhiều công cụ phát triển, máy chủ ứng dụng và khung chất lượng cao để hỗ trợ các nhà phát triển. Nền tảng Java có thể chạy trên một số hệ điều hành cơ bản, bao gồm Windows, Linux và Solaris.  
+  Trong nhiều năm, Nền tảng Java, Phiên bản Doanh nghiệp (trước đây gọi là J2EE) là một tiêu chuẩn thực tế cho các ứng dụng doanh nghiệp quy mô lớn. Ban đầu được phát triển bởi Sun Microsystems và hiện thuộc sở hữu của Oracle, nó phù hợp với các kiến trúc đa tầng và cân bằng tải, đồng thời rất phù hợp để phát triển mô-đun và tái sử dụng mã. Do có lịch sử lâu đời và được áp dụng rộng rãi nên có nhiều công cụ phát triển, máy chủ ứng dụng và khung chất lượng cao để hỗ trợ các nhà phát triển. Nền tảng Java có thể chạy trên một số hệ điều hành cơ bản, bao gồm Windows, Linux và Solaris.  
     
-    Mô tả về các ứng dụng web dựa trên Java thường sử dụng một số thuật ngữ có khả năng gây nhầm lẫn cần phải biết như sau:  
+  Mô tả về các ứng dụng web dựa trên Java thường sử dụng một số thuật ngữ có khả năng gây nhầm lẫn cần phải biết như sau:  
     
         Enterprise Java Bean (EJB) là một thành phần phần mềm tương đối nặng đóng gói logic của một chức năng kinh doanh cụ thể trong ứng dụng. EJB nhằm giải quyết các thách thức kỹ thuật khác nhau mà các nhà phát triển ứng dụng phải giải quyết, chẳng hạn như tính toàn vẹn của giao dịch.  
         
@@ -70,7 +70,7 @@ The Java Platform:
         
         A Java web container là một nền tảng hoặc công cụ cung cấp môi trường thời gian chạy cho các ứng dụng web dựa trên Java. Ví dụ về bộ chứa web Java là Apache Tomcat, BEA WebLogic và JBoss.  
         
-      Nhiều ứng dụng web Java sử dụng các thành phần nguồn mở và bên thứ ba cùng với mã được tạo tùy chỉnh. Đây là một lựa chọn hấp dẫn vì nó giảm nỗ lực phát triển và Java rất phù hợp với cách tiếp cận mô đun này. Dưới đây là một số ví dụ về các thành phần thường được sử dụng cho các chức năng chính của ứng dụng:  
+    Nhiều ứng dụng web Java sử dụng các thành phần nguồn mở và bên thứ ba cùng với mã được tạo tùy chỉnh. Đây là một lựa chọn hấp dẫn vì nó giảm nỗ lực phát triển và Java rất phù hợp với cách tiếp cận mô đun này. Dưới đây là một số ví dụ về các thành phần thường được sử dụng cho các chức năng chính của ứng dụng:  
       
         Authentication — JAAS, ACEGI.  
         
@@ -80,5 +80,5 @@ The Java Platform:
         
         Logging — Log4J.  
         
-      Nếu bạn có thể xác định gói nguồn mở nào được sử dụng trong ứng dụng mà bạn đang tấn công, bạn có thể tải xuống các gói này và thực hiện đánh giá mã hoặc cài đặt chúng để thử nghiệm. Một lỗ hổng trong bất kỳ lỗ hổng nào trong số này có thể bị khai thác để làm tổn hại đến ứng dụng rộng hơn.  
+    Nếu bạn có thể xác định gói nguồn mở nào được sử dụng trong ứng dụng mà bạn đang tấn công, bạn có thể tải xuống các gói này và thực hiện đánh giá mã hoặc cài đặt chúng để thử nghiệm. Một lỗ hổng trong bất kỳ lỗ hổng nào trong số này có thể bị khai thác để làm tổn hại đến ứng dụng rộng hơn.  
       
